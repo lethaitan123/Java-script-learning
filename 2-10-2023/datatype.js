@@ -16,7 +16,7 @@
 // console.log(fullname[0]);
 // //string length
 // console.log('length',fullname.length)
-// //string method 
+// //string method
 // let fullname1 = fullname.toUpperCase()
 // console.log(fullname1)
 // let result = fullname.toLocaleLowerCase()
@@ -25,12 +25,10 @@
 // let index   = email.indexOf('t')
 // console.log('index',index )
 
-
 //common string methods 31:34 #2
 // let email = "tan.lethaitan@gmail.com";
 // let index   = email.indexOf('t');
 // console.log('index',index );
-
 
 // let result =email.lastIndexOf('a');
 // console.log(result);
@@ -57,7 +55,6 @@
 // let result =radius % 3
 // console.log(result)
 
-
 // radius /= 2;
 // console.log(radius)
 
@@ -67,7 +64,6 @@
 // let author = 'tan'
 // let result = 'the blog has' + likes + "likes";
 // console.log(result)
-
 
 // // template string
 // let result = `The blog called ${name1} by AUTHOR has ${likes} likes`
@@ -104,19 +100,19 @@
 // console.log(ninjas)
 
 //   console.log(true, false)
-  
-  let email = 'tan.lethaitan@gmail.com' 
-  let names = ['tan','son']
-  let result = email.includes('@')
-  let result1  = names.includes('duy')
+
+let email = "tan.lethaitan@gmail.com";
+let names = ["tan", "son"];
+let result = email.includes("@");
+let result1 = names.includes("duy");
 //   console.log(result1)
-// comparison operatorsc  
+// comparison operatorsc
 
 let age = 25;
 
 // console.log(age == 25)
-// console.log(age !=30) 
-let name1 = 'tan'
+// console.log(age !=30)
+let name1 = "tan";
 
 // console.log(name1 == 'tan')
 // console.log(name1 >= 'tnaleee')
@@ -125,18 +121,18 @@ let name1 = 'tan'
 //  loose comparison (different types can still be qual)
 
 console.log(age == 25);
-console.log(age == '25')
+console.log(age == "25");
 // strict comparation
-console.log(age === 25)
-console.log(age === '25')
-console.log(age !== 25)
-console.log(age !== '25')
+console.log(age === 25);
+console.log(age === "25");
+console.log(age !== 25);
+console.log(age !== "25");
 //type conversion
-let score = '100'
+let score = "100";
 // string => number
-score = Number(score)
-console.log(score+1)
-console.log(typeof score)
+score = Number(score);
+console.log(score + 1);
+console.log(typeof score);
 // number => string
-let number_string = Boolean('');
-console.log(number_string,typeof number_string)
+let number_string = Boolean("");
+console.log(number_string, typeof number_string);

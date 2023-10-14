@@ -6,20 +6,20 @@
 // use let if you wanna change your variable and use const if your variable can not be overwrite
 
 // let
-age =25;
-let year =2023;
+age = 25;
+let year = 2023;
 
-console.log(age,year)
+console.log(age, year);
 
-age =30;
-console.log(age)
+age = 30;
+console.log(age);
 // const
 
 const point = 100;
 
-console.log(point)
+console.log(point);
 // var older way create variable
 var score = 75;
 console.log(score);
 
-console.log("hello")
+console.log("hello");
